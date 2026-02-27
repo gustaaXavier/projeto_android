@@ -111,6 +111,15 @@ main a:hover {
     color: var(--cor4);
 }
 
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
 aside {
     background-color: var(--cor1);
     padding: 10px;
